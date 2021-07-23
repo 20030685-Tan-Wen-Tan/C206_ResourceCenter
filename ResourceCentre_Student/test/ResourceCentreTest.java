@@ -77,7 +77,7 @@ public class ResourceCentreTest {
 
 		// No.3 - same item added, size 2
 		assertSame("Test that Chromebook is added same as 2nd item of the list?", cb2, chromebookList.get(1));
-
+		
 	}
 
 	@Test

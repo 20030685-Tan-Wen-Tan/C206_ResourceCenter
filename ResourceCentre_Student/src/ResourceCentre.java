@@ -157,6 +157,7 @@ public class ResourceCentre {
 		}
 
 		return output;
+
 	}
 
 	public static void viewAllChromebook(ArrayList<Chromebook> chromebookList) {
@@ -189,6 +190,7 @@ public class ResourceCentre {
 
 	public static Chromebook inputChromebook() {
 //		Chromebook cb =null;
+
 		// write your code here
 		String tag = Helper.readString("Enter asset tag > ");
 		String description = Helper.readString("Enter description > ");
@@ -332,7 +334,7 @@ public class ResourceCentre {
 
 		if (isReturned == false) {
 			System.out.println("Invalid asset tag");
-			
+
 		} else {
 			System.out.println("Chromebook " + tag + " returned");
 		}
